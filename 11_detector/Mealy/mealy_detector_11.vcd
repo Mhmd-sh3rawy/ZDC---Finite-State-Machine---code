@@ -1,0 +1,73 @@
+$date
+	Sat Sep  6 20:09:49 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module mealy_seq_tb $end
+$var wire 1 ! y $end
+$var reg 1 " clk $end
+$var reg 1 # rst_b $end
+$var reg 1 $ x $end
+$scope module DUT $end
+$var wire 1 " clk $end
+$var wire 1 # rst_b $end
+$var wire 1 $ x $end
+$var wire 1 ! y $end
+$var reg 1 % NextState $end
+$var reg 1 & PresentState $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#3000
+1#
+#5000
+1"
+#10000
+0"
+#13000
+1%
+1$
+#15000
+1!
+1&
+1"
+#20000
+0"
+#23000
+0!
+0%
+0$
+#25000
+0&
+1"
+#30000
+0"
+#33000
+1%
+1$
+#35000
+1!
+1&
+1"
+#40000
+0"
+#45000
+1"
+#50000
+0"
+#55000
+1"
+#58000
